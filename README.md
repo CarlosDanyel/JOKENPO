@@ -1,18 +1,34 @@
-## Getting Started
+## JOKENPO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+    Jokenpô é uma brincadeira de recreação para crianças com origem no Japão. O jogo consiste em
 
-## Folder Structure
+escolher entre pedra, papel ou tesoura e dependendo da combinação realizada é determinado um
+vencedor. As combinações são as seguintes:
 
-The workspace contains two folders by default, where:
+• Pedra ganha da tesoura (amassando-a ou quebrando-a).
+• Tesoura ganha do papel (cortando-o).
+• Papel ganha da pedra(embrulhando-a).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+    Programa distribuído em Java, onde temos duas modalidades de jogos:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+• Jogador Vs CPU: o jogador será o usuário do programa e o outro um computador (servidor)
+que irá escolher de maneira aleatória uma das três opções de jogo.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+• Jogador Vs Jogador: dois jogadores conectados cada um em uma máquina jogando um
+contra o outro.
 
-## Dependency Management
+## Nomes(RA)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+    • CARLOS DANYEL SILVA TEIXEIRA ( Ra: 12523123286 )
+    • LUIZ GUSTAVO CORDEIRO FERNANDE ( Ra: 12523141472 )
+    • ROBERT DE LIMA FREIRE ( Ra: 12523119760 )
+
+## Para execultar o projeto
+
+1 - javac -d . src/server/JokenpoServer.java src/client/JokenpoClient.java src/common/JokenpoGame.java
+
+2- java server.JokenpoServer
+
+Abindo outro terminal para outro jogador
+
+3- java client.JokenpoClient

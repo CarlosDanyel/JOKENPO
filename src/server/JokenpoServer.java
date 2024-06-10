@@ -50,6 +50,7 @@ public class JokenpoServer {
                 out.println("Bem-vindo ao Jokenpo! Você é o jogador " + playerId);
                 
                 // Adiciona o jogador na fila de espera para emparelhamento
+
                 waitingPlayers.put(this);
                 if (waitingPlayers.size() >= 2) {
                     PlayerHandler player1 = waitingPlayers.take();
@@ -71,6 +72,7 @@ public class JokenpoServer {
                         opponent.out.println(result);
                         
                         // Limpa as jogadas após determinar o vencedor
+                        
                         this.move = null;
                         opponent.move = null;
                     }
