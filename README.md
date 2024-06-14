@@ -32,3 +32,5 @@ contra o outro.
 Abindo outro terminal para outro jogador
 
 3- java client.JokenpoClient
+
+127.0.0.1
