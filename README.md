@@ -25,7 +25,7 @@ contra o outro.
 
 ## Para execultar o projeto
 
-1 - javac -d . src/server/JokenpoServer.java src/client/JokenpoClient.java src/common/JokenpoGame.java
+1 - javac -d . src/server/JokenpoServer.java src/client/JokenpoClient.java src/app/JogadorVSJogador.java
 
 2- java server.JokenpoServer
 
