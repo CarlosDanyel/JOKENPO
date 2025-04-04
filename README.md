@@ -17,12 +17,6 @@ que irá escolher de maneira aleatória uma das três opções de jogo.
 • Jogador Vs Jogador: dois jogadores conectados cada um em uma máquina jogando um
 contra o outro.
 
-## Nomes(RA)
-
-    • CARLOS DANYEL SILVA TEIXEIRA ( Ra: 12523123286 )
-    • LUIZ GUSTAVO CORDEIRO FERNANDE ( Ra: 12523141472 )
-    • ROBERT DE LIMA FREIRE ( Ra: 12523119760 )
-
 ## Para execultar o projeto
 
 1 - javac -d . src/server/JokenpoServer.java src/client/JokenpoClient.java src/app/JogadorVSJogador.java
